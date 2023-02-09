@@ -16,7 +16,9 @@ To start with we are taking 5 different samples from project Gutenberg digital b
 2. diff_genre_da - The variable used to assign data of different genres and different authors
 3. same_genre_da - The variable used to assign data of same genres and different authors
 4. This can be fed to the model by passing it through the function - get_book_sample
-5. Run all the code at once
+5. To pass the book link use the below format in the variable "book_list" = [('https://gutenberg.org/files/69983/69983-0.txt', 'Thomas Wright')]. First parameter is the link and second parameter is the Author name. If we want to use genre change the seond parameter to genre.
+6. Run all the code at once
+
 ### Group Number 
 15
 ### Group Members
